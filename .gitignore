@@ -1,0 +1,13 @@
+# Python virtual environment
+Backend/.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+
+# Generated restoration results are local artifacts, not source files.
+Backend/outputs/*
+!Backend/outputs/.gitkeep
